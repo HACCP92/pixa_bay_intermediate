@@ -5,7 +5,7 @@ import 'package:pixa_bay_intermediate/presentation/main/main_screen.dart';
 import 'package:pixa_bay_intermediate/presentation/main/main_view_model.dart';
 import 'package:provider/provider.dart';
 
-final GoRouter _router = GoRouter(
+final GoRouter router = GoRouter(
   routes: <RouteBase>[
     GoRoute(
       path: '/',
